@@ -7,6 +7,7 @@ public class iChatServer {
     public static void main(String[] args) {
         System.out.println("Server started, listening on port " + PORT);
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
+            System.out.println("Waiting for a client to connect...");
             Socket clientSocket = serverSocket.accept();
             System.out.println("Connection established with " + clientSocket.getInetAddress());
 

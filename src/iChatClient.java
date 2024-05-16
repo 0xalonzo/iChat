@@ -4,13 +4,14 @@ import java.net.*;
 public class iChatClient {
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Usage: java ChatClient <server_ip> <port_number>");
+            System.out.println("Usage: java iChatClient <server_ip> <port_number>");
             return;
         }
 
         String serverAddress = args[0];
         int port = Integer.parseInt(args[1]);
 
+        System.out.println("Attempting to connect to server at " + serverAddress + " on port " + port);
         try (Socket socket = new Socket(serverAddress, port)) {
             System.out.println("Connected to server at " + serverAddress + ":" + port);
 
