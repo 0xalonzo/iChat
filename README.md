@@ -1,22 +1,19 @@
-<<<<<<< HEAD
-## Getting Started
+# Java Chat Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Java-based chat application where one user acts as the server and the other acts as the client. 
+The server listens for incoming connections, and the client connects to the server to facilitate a chat.
 
-## Folder Structure
+## Prerequisites
 
-The workspace contains two folders by default, where:
+- Java Development Kit (JDK) installed on both client and server machines.
+- Basic understanding of command-line operations.
+- Ensure both machines are on the same network or have the necessary network configurations.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Files
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `iChatServer.java` - Server-side application.
+- `iChatClient.java` - Client-side application.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Additional Notes
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# iChat
->>>>>>> 8578bb05fb02f83064fd2172b992937317c40650
+- This application is intended for educational purposes and does not include advanced features like encryption or user authentication.
