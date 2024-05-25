@@ -15,4 +15,4 @@ The server listens for incoming connections, and the client connects to the serv
 
 ## Additional Notes
 
-- This application is intended for educational purposes and does not include advanced features like encryption or user authentication.
+- Does not include advanced features like encryption or user authentication.
