@@ -6,7 +6,6 @@ The server listens for incoming connections, and the client connects to the serv
 ## Prerequisites
 
 - Java Development Kit (JDK) installed on both client and server machines.
-- Basic understanding of command-line operations.
 - Ensure both machines are on the same network or have the necessary network configurations.
 
 ## Files
